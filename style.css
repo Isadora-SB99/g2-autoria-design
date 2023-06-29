@@ -1,0 +1,56 @@
+.corpo{
+    /* display: flex; */
+    /* flex-direction: column; */
+    top: 100px;
+}
+
+.lateral-esquerda{
+    /* flex: 10%; */
+    /* position: sticky; */
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+
+.lateral-esquerda img {
+    width: 50px;
+    height: 50px;
+}
+
+.centro{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    
+    /* flex: 80%; */
+}
+
+.produtos{
+    display: flex;
+}
+
+.produto{
+    
+}
+
+/* .centro-pg-inicial{
+    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+} */
+
+.lateral-direita{
+    /* flex: 10%; */
+    /* position: fixed; */
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    
+
+}
+
+
+footer{
+    margin-top: 50%;
+}
